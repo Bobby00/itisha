@@ -1,0 +1,107 @@
+
+body {
+	background-image: url(../assets/img/bg-img/bg5.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Nunito', sans-serif;
+}
+
+.services-header-txt {
+	text-align: center;
+	font-size: 18px;
+	margin: 4% 20% 0% 20%;
+}
+
+.cstm-hero-btn {
+	border-radius: 30px;
+	letter-spacing: 0px;
+	background-color: #FFD800;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	border-color: #FFD800;
+	color: black;
+	padding: 0.875rem 3rem;
+}
+
+.cstm-mv-rght {
+	margin-left: auto;
+}
+
+.cstm-mgn-tp-5pc {
+	margin-top: 5%;
+}
+
+.navbar-theme-primary:not(.navbar-transparent) {
+	background-color: #fafbfedb;
+	border-radius: 0px 0px 12px 12px;
+}
+
+
+.cstm-glss-wrds {
+	margin-top: -5%;
+	font-family: 'Nunito', sans-serif;
+	padding: 5px 25px;
+	letter-spacing: -1px;
+	color: #662D91;
+	font-weight: 900;
+	width: max-content;
+	background-color: rgba( 255, 255, 255, 0.8);
+	border: 0.0625rem solid #D1D9E6;
+	border-radius: 0.55rem;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    
+}
+
+.cstm-glass-bg {
+    font-size: 0.875rem;
+    color: #44476A;
+    text-align: left;
+    background-color: rgba( 255, 255, 255, 0.9);
+    background-clip: padding-box;
+    border: 0.0625rem solid #D1D9E6;
+    border-radius: 0.55rem;
+    margin-top: 2%;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+}
+
+.header-image-cstm {
+	filter: drop-shadow(10px 5px 8px #6e7182);
+	max-width: 110%;
+	animation: animate 5s linear infinite;
+}@keyframes animate {
+	0%,100% {
+		transform: translateY(-20px);
+	} 50% {
+		transform: translateY(50px);
+	}
+}
+
+
+.cstm-glass-sm {
+	background-color: rgba( 255, 255, 255, 0.8);
+	border: 0.0625rem solid #D1D9E6;
+	border-radius: 0.55rem;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #ffffff;
+    margin-top: 25%;
+    padding: 30px 20px;
+    /*backdrop-filter: blur(10px);*/
+    margin-left: -12%;
+    margin-right: 15%;
+}
+
+.hero-main-text {
+	font-weight: 900;
+	font-family: 'Nunito', sans-serif;
+	font-size: 40px;
+	letter-spacing: -1px;
+	color: #662D91;
+}
+
+.hero-helper-text {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Nunito', sans-serif;
+	color: #FF5300;
+}
+
