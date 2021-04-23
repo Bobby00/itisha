@@ -1,0 +1,24 @@
+.cstm-glass-bg {
+    font-size: 0.875rem;
+    color: #44476A;
+    text-align: left;
+    background-color: rgba( 255, 255, 255, 0.95);
+    background-clip: padding-box;
+    border-radius: 0.55rem;
+    margin-top: 2%;
+    box-shadow: 27px 28px 45px #222222a6, -6px -6px 12px #26283300;
+    backdrop-filter: blur(10px);
+}
+
+.cstm-glass-sm {
+	background-color: rgba( 255, 255, 255, 0.75);
+	border: 0.0625rem solid #d1d9e64f;
+	border-radius: 0.55rem;
+	backdrop-filter: blur(15px)!important;
+    box-shadow: 20px 16px 12px #2222222e, -6px -6px 12px rgb(38 40 51 / 0%);
+    margin-top: 25%;
+    backdrop-filter: blur(10px);
+    padding: 30px 20px;
+    margin-left: -12%;
+    margin-right: 15%;
+}
