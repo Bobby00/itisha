@@ -56,26 +56,6 @@
 <link type="text/css" href="./css/custom.scss" rel="stylesheet">
 
 
-<script type = "text/javascript">
-          function displayNextImage() {
-              x = (x === images.length - 1) ? 0 : x + 1;
-              document.getElementById("header_img").src = images[x];
-          }
-
-          function displayPreviousImage() {
-              x = (x <= 0) ? images.length - 1 : x - 1;
-              document.getElementById("header_img").src = images[x];
-          }
-
-          function startTimer() {
-              setInterval(displayNextImage, 4000);
-          }
-
-          var images = [], x = -1;
-          images[0] = "assets/img/hero-images/drinks_order_header.png";
-          images[1] = "assets/img/hero-images/food_order_header.png";
-</script>
-
 
 <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
 
