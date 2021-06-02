@@ -189,6 +189,14 @@ h2 {
     height: 5.5rem;
 }
 
+.navbar-brand img {
+  height: 72px;
+}
+
+.navbar {
+  padding: unset;
+}
+
 
 @media only screen and (max-width: 1200px) {
   .cstm-glass-sm {
