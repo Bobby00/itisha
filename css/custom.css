@@ -288,6 +288,6 @@ h2 {
   .cstm-d-abs {
     position: absolute;
     z-index: -1;
+    display: none;
   }
-
 }
