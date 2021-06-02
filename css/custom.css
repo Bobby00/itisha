@@ -1,6 +1,6 @@
 
 body {
-	background-image: url(../assets/img/bg-img/bg6.png);
+	/*background-image: url(../assets/img/bg-img/bg6.png);*/
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -289,5 +289,8 @@ h2 {
     position: absolute;
     z-index: -1;
     display: none;
+  }
+  .cstm-glass-bg {
+    margin-top: 20%;
   }
 }
