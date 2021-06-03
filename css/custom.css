@@ -296,4 +296,10 @@ h2 {
   .cstm-glass-bg {
     margin-top: 20%;
   }
+  .cstm-no-pad {
+    padding: 0;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
 }
