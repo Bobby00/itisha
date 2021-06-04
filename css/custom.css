@@ -196,11 +196,33 @@ h2 {
 .navbar {
   padding: unset;
 }
+.sm-nav {
+  display: none;
+}
+
+.navbar-collapse .collapse-brand img {
+  height: 60px;
+}
+
+.navbar-collapse.collapsing, .navbar-collapse.show {
+  background: #fafbfefa;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.1rem;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-item {
+  font-size: 1.1rem;
+}
 
 
 @media only screen and (max-width: 1200px) {
   .cstm-glass-sm {
     margin-top: 10%;
+  }
+  .sm-nav {
+    display: none;
   }
 }
 
@@ -214,6 +236,9 @@ h2 {
   }
   .cstm-hero-btn {
     font-size: 20px!important;
+  }
+  .sm-nav {
+    display: block;
   }
 }
 
@@ -261,6 +286,9 @@ h2 {
   .cstm-inline-block {
     display: inline-block;
   }
+  .sm-nav {
+    display: block;
+  }
 }
 
 
@@ -301,5 +329,8 @@ h2 {
   }
   .card {
     margin-bottom: 20px;
+  }
+  .sm-nav {
+    display: block;
   }
 }

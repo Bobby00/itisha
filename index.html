@@ -73,6 +73,10 @@
           var images = [], x = -1;
           images[0] = "assets/img/hero-images/drinks_order_header.png";
           images[1] = "assets/img/hero-images/food_order_header.png";
+
+          function hideNav() {
+            document.getElementById("navbar_global").style.display = "none";
+          }
 </script>
 
 
@@ -89,16 +93,18 @@
                 <img class="navbar-brand-light" src="./assets/img/logo/itisha1.png" alt="Logo dark">
             </a>
 
+            <a style="padding-right: 18px; color: #ff7a04;" href="#navbar_global" class="fas fa-ellipsis-h fa-2x sm-nav" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="open" aria-label="Toggle navigation"></a>
+
             <div class="navbar-collapse collapse" id="navbar_global">
                 <div class="navbar-collapse-header">
                     <div class="row">
                         <div class="col-6 collapse-brand">
-                            <a href="./index.html" class="navbar-brand shadow-soft py-2 px-3 rounded border border-light">
-                                <img src="./assets/img/brand/dark.svg" alt="Themesberg logo">
+                            <a href="./index.html" class="navbar-brand">
+                                <img src="./assets/img/logo/itisha1.png" alt="Itisha logo">
                             </a>
                         </div>
                         <div class="col-6 collapse-close">
-                            <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                            <a href="#navbar_global" class="fas fa-times fa-2x" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +120,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#our_services" class="nav-link">
+                        <a onclick="hideNav()" href="#our_services" class="nav-link">
                             <span class="nav-link-inner-text">Our services</span>
                         </a>
                         
@@ -157,7 +163,8 @@
                         
                         <div class="col-12 col-sm-6 col-md-6">
                             <div class="cstm-glass-sm">
-                                <h2 class="hero-main-text">Simple, Fast and Reliable online Ordering & Delivery service</h2>
+
+                                <h2 class="hero-main-text">Simple, Fast and Reliable online Ordering & Delivery service </h2>
                                 <br class="hide-sm">
                                 <p class="hero-helper-text">Place an order for food, beverages or liquor from outlets near you!!!</p>
                                 <br class="hide-sm">
