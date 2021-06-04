@@ -296,6 +296,7 @@ h2 {
   body {
     background-position: right;
     background-image: url(../assets/img/bg-img/bg_small.png);
+    background-size: cover;
   }
   .hero-main-text {
     font-size:25px!important;
