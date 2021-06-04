@@ -295,6 +295,7 @@ h2 {
 @media only screen and (max-width: 576px) {
   body {
     background-position: right;
+    background-image: url(../assets/img/bg-img/bg_small.png);
   }
   .hero-main-text {
     font-size:25px!important;
